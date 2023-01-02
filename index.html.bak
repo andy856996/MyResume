@@ -20,7 +20,7 @@
         text-decoration: none;
         margin: 5px 80px;
     }
-  
+
     .android {
         background: #a4c639;
         color: white;
@@ -37,16 +37,20 @@
       <!-- 照片 -->
       <div class="row text-center">
         <div class="col-12">
-          <img data-no-retina="true" width="20%" src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/272987072_4867316556693947_7977265892034114561_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=CpVIVwHhkjwAX94YKaw&_nc_ht=scontent.fkhh1-1.fna&oh=00_AT9SQrSRM0bff25Ev1HJiEt1x5zXcoZoXQv0gYmbKS_WjQ&oe=6226A598" alt="Appoiqyu4fhiqypdk9hc" loading="auto" style="border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%;">
+          <img data-no-retina="true" width="20%" src="./images/picture.jpg" alt="Appoiqyu4fhiqypdk9hc" loading="auto" style="border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%;">
         </div>
       </div>
       <!-- 介紹 -->
       <div class="row  text-center justify-content-center">
         <div class="col-12">
-          <h1>Ding Ze An 丁澤安</h1>
+          <h1>丁澤安 Ding Ze An</h1>
         </div>
-        <div class="col-8">
+        <!-- <div class="col-8">
           <p style="font-size: 20px;">我是Kim，畢業於桃園市立永豐高中，目前就讀於國立臺東大學，綠色與資訊科技學士學位學程二年級。目前專題為<mark><strong>半導體製程相關</strong></mark>，會寫的程式語言有 : Java、C、C++、C#、Matlab、Simulink、Python、JavaScript、HTML、CSS</p>
+          
+        </div> -->
+        <div class="col-8">
+          <p style="font-size: 20px;">目前就讀於國立臺東大學，綠色與資訊科技學士學位學程二年級。</p>
           
         </div>
 
@@ -54,36 +58,28 @@
       </div> 
       
       <div class="row  text-center justify-content-center">
-        <div class="col-md-1 col-sm-1">
+        <div style="margin-top: 10px;" class="col col-12 col-sm-4 col-md-4 col-lg-2">
 		<a href="https://www.instagram.com/andy856994/">
 		<svg width="32" height="32" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-              <g><path d="M127.999746,23.06353 C162.177385,23.06353 166.225393,23.1936027 179.722476,23.8094161 C192.20235,24.3789926 198.979853,26.4642218 203.490736,28.2166477 C209.464938,30.5386501 213.729395,33.3128586 218.208268,37.7917319 C222.687141,42.2706052 225.46135,46.5350617 227.782844,52.5092638 C229.535778,57.0201472 231.621007,63.7976504 232.190584,76.277016 C232.806397,89.7746075 232.93647,93.8226147 232.93647,128.000254 C232.93647,162.177893 232.806397,166.225901 232.190584,179.722984 C231.621007,192.202858 229.535778,198.980361 227.782844,203.491244 C225.46135,209.465446 222.687141,213.729903 218.208268,218.208776 C213.729395,222.687649 209.464938,225.461858 203.490736,227.783352 C198.979853,229.536286 192.20235,231.621516 179.722476,232.191092 C166.227425,232.806905 162.179418,232.936978 127.999746,232.936978 C93.8200742,232.936978 89.772067,232.806905 76.277016,232.191092 C63.7971424,231.621516 57.0196391,229.536286 52.5092638,227.783352 C46.5345536,225.461858 42.2700971,222.687649 37.7912238,218.208776 C33.3123505,213.729903 30.538142,209.465446 28.2166477,203.491244 C26.4637138,198.980361 24.3784845,192.202858 23.808908,179.723492 C23.1930946,166.225901 23.0630219,162.177893 23.0630219,128.000254 C23.0630219,93.8226147 23.1930946,89.7746075 23.808908,76.2775241 C24.3784845,63.7976504 26.4637138,57.0201472 28.2166477,52.5092638 C30.538142,46.5350617 33.3123505,42.2706052 37.7912238,37.7917319 C42.2700971,33.3128586 46.5345536,30.5386501 52.5092638,28.2166477 C57.0196391,26.4642218 63.7971424,24.3789926 76.2765079,23.8094161 C89.7740994,23.1936027 93.8221066,23.06353 127.999746,23.06353 M127.999746,0 C93.2367791,0 88.8783247,0.147348072 75.2257637,0.770274749 C61.601148,1.39218523 52.2968794,3.55566141 44.1546281,6.72008828 C35.7374966,9.99121548 28.5992446,14.3679613 21.4833489,21.483857 C14.3674532,28.5997527 9.99070739,35.7380046 6.71958019,44.1551362 C3.55515331,52.2973875 1.39167714,61.6016561 0.769766653,75.2262718 C0.146839975,88.8783247 0,93.2372872 0,128.000254 C0,162.763221 0.146839975,167.122183 0.769766653,180.774236 C1.39167714,194.398852 3.55515331,203.703121 6.71958019,211.845372 C9.99070739,220.261995 14.3674532,227.400755 21.4833489,234.516651 C28.5992446,241.632547 35.7374966,246.009293 44.1546281,249.28042 C52.2968794,252.444847 61.601148,254.608323 75.2257637,255.230233 C88.8783247,255.85316 93.2367791,256 127.999746,256 C162.762713,256 167.121675,255.85316 180.773728,255.230233 C194.398344,254.608323 203.702613,252.444847 211.844864,249.28042 C220.261995,246.009293 227.400247,241.632547 234.516143,234.516651 C241.632039,227.400755 246.008785,220.262503 249.279912,211.845372 C252.444339,203.703121 254.607815,194.398852 255.229725,180.774236 C255.852652,167.122183 256,162.763221 256,128.000254 C256,93.2372872 255.852652,88.8783247 255.229725,75.2262718 C254.607815,61.6016561 252.444339,52.2973875 249.279912,44.1551362 C246.008785,35.7380046 241.632039,28.5997527 234.516143,21.483857 C227.400247,14.3679613 220.261995,9.99121548 211.844864,6.72008828 C203.702613,3.55566141 194.398344,1.39218523 180.773728,0.770274749 C167.121675,0.147348072 162.762713,0 127.999746,0 Z M127.999746,62.2703115 C91.698262,62.2703115 62.2698034,91.69877 62.2698034,128.000254 C62.2698034,164.301738 91.698262,193.730197 127.999746,193.730197 C164.30123,193.730197 193.729689,164.301738 193.729689,128.000254 C193.729689,91.69877 164.30123,62.2703115 127.999746,62.2703115 Z M127.999746,170.667175 C104.435741,170.667175 85.3328252,151.564259 85.3328252,128.000254 C85.3328252,104.436249 104.435741,85.3333333 127.999746,85.3333333 C151.563751,85.3333333 170.666667,104.436249 170.666667,128.000254 C170.666667,151.564259 151.563751,170.667175 127.999746,170.667175 Z M211.686338,59.6734287 C211.686338,68.1566129 204.809755,75.0337031 196.326571,75.0337031 C187.843387,75.0337031 180.966297,68.1566129 180.966297,59.6734287 C180.966297,51.1902445 187.843387,44.3136624 196.326571,44.3136624 C204.809755,44.3136624 211.686338,51.1902445 211.686338,59.6734287 Z" fill="#0A0A08"></path></g></svg>
-		</a>
-		</div>
-		<div class="col-md-1 col-sm-1">
+              <g><path d="M127.999746,23.06353 C162.177385,23.06353 166.225393,23.1936027 179.722476,23.8094161 C192.20235,24.3789926 198.979853,26.4642218 203.490736,28.2166477 C209.464938,30.5386501 213.729395,33.3128586 218.208268,37.7917319 C222.687141,42.2706052 225.46135,46.5350617 227.782844,52.5092638 C229.535778,57.0201472 231.621007,63.7976504 232.190584,76.277016 C232.806397,89.7746075 232.93647,93.8226147 232.93647,128.000254 C232.93647,162.177893 232.806397,166.225901 232.190584,179.722984 C231.621007,192.202858 229.535778,198.980361 227.782844,203.491244 C225.46135,209.465446 222.687141,213.729903 218.208268,218.208776 C213.729395,222.687649 209.464938,225.461858 203.490736,227.783352 C198.979853,229.536286 192.20235,231.621516 179.722476,232.191092 C166.227425,232.806905 162.179418,232.936978 127.999746,232.936978 C93.8200742,232.936978 89.772067,232.806905 76.277016,232.191092 C63.7971424,231.621516 57.0196391,229.536286 52.5092638,227.783352 C46.5345536,225.461858 42.2700971,222.687649 37.7912238,218.208776 C33.3123505,213.729903 30.538142,209.465446 28.2166477,203.491244 C26.4637138,198.980361 24.3784845,192.202858 23.808908,179.723492 C23.1930946,166.225901 23.0630219,162.177893 23.0630219,128.000254 C23.0630219,93.8226147 23.1930946,89.7746075 23.808908,76.2775241 C24.3784845,63.7976504 26.4637138,57.0201472 28.2166477,52.5092638 C30.538142,46.5350617 33.3123505,42.2706052 37.7912238,37.7917319 C42.2700971,33.3128586 46.5345536,30.5386501 52.5092638,28.2166477 C57.0196391,26.4642218 63.7971424,24.3789926 76.2765079,23.8094161 C89.7740994,23.1936027 93.8221066,23.06353 127.999746,23.06353 M127.999746,0 C93.2367791,0 88.8783247,0.147348072 75.2257637,0.770274749 C61.601148,1.39218523 52.2968794,3.55566141 44.1546281,6.72008828 C35.7374966,9.99121548 28.5992446,14.3679613 21.4833489,21.483857 C14.3674532,28.5997527 9.99070739,35.7380046 6.71958019,44.1551362 C3.55515331,52.2973875 1.39167714,61.6016561 0.769766653,75.2262718 C0.146839975,88.8783247 0,93.2372872 0,128.000254 C0,162.763221 0.146839975,167.122183 0.769766653,180.774236 C1.39167714,194.398852 3.55515331,203.703121 6.71958019,211.845372 C9.99070739,220.261995 14.3674532,227.400755 21.4833489,234.516651 C28.5992446,241.632547 35.7374966,246.009293 44.1546281,249.28042 C52.2968794,252.444847 61.601148,254.608323 75.2257637,255.230233 C88.8783247,255.85316 93.2367791,256 127.999746,256 C162.762713,256 167.121675,255.85316 180.773728,255.230233 C194.398344,254.608323 203.702613,252.444847 211.844864,249.28042 C220.261995,246.009293 227.400247,241.632547 234.516143,234.516651 C241.632039,227.400755 246.008785,220.262503 249.279912,211.845372 C252.444339,203.703121 254.607815,194.398852 255.229725,180.774236 C255.852652,167.122183 256,162.763221 256,128.000254 C256,93.2372872 255.852652,88.8783247 255.229725,75.2262718 C254.607815,61.6016561 252.444339,52.2973875 249.279912,44.1551362 C246.008785,35.7380046 241.632039,28.5997527 234.516143,21.483857 C227.400247,14.3679613 220.261995,9.99121548 211.844864,6.72008828 C203.702613,3.55566141 194.398344,1.39218523 180.773728,0.770274749 C167.121675,0.147348072 162.762713,0 127.999746,0 Z M127.999746,62.2703115 C91.698262,62.2703115 62.2698034,91.69877 62.2698034,128.000254 C62.2698034,164.301738 91.698262,193.730197 127.999746,193.730197 C164.30123,193.730197 193.729689,164.301738 193.729689,128.000254 C193.729689,91.69877 164.30123,62.2703115 127.999746,62.2703115 Z M127.999746,170.667175 C104.435741,170.667175 85.3328252,151.564259 85.3328252,128.000254 C85.3328252,104.436249 104.435741,85.3333333 127.999746,85.3333333 C151.563751,85.3333333 170.666667,104.436249 170.666667,128.000254 C170.666667,151.564259 151.563751,170.667175 127.999746,170.667175 Z M211.686338,59.6734287 C211.686338,68.1566129 204.809755,75.0337031 196.326571,75.0337031 C187.843387,75.0337031 180.966297,68.1566129 180.966297,59.6734287 C180.966297,51.1902445 187.843387,44.3136624 196.326571,44.3136624 C204.809755,44.3136624 211.686338,51.1902445 211.686338,59.6734287 Z" fill="#0A0A08"></path></g></svg></a></div>
+
+		<div style="margin-top: 10px;" class="col col-12 col-sm-4 col-md-4 col-lg-2">
 		<a href="https://www.facebook.com/profile.php?id=100002469536328">
-		<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
-		</a>
-          
-        </div>
+		<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg></a>
+    </div>
 		
-        
+        <div  style="margin-top: 10px;" class="col col-12 col-sm-4 col-md-4 col-lg-2">
+    <a href="https://github.com/andy856996">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
+    </div>
+
       </div>
       <hr>
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <h2>Education</h2>
           <hr>
-          <div class="row">
-            <div class="col-6">
-              <h4>Taoyuan Municipal Yung-Feng High School</h4>
-            </div>
-            <div class="col-6">
-              <h5 class="text-right"><span aria-hidden="true"></span> July 2017 - June 2020</h5>
-            </div>
-          </div>
-          <h5><span class="badge badge-secondary">Graduated</span></h5>
-          <p>高一時我參加實驗班的課程，在裡面我學會了<mark><strong>撰寫程式</strong></mark>、 繪製 3D 圖，並實際操作 3D 列印機。此外，我也參加了元智大學 開設的一門機器人課程，從組裝到成品，從成品到設計內部程式， 再從程式到多人對抗。在之後的 mbot 自走車也有所深究，並且在 2017 年 11 月 獲得冠軍。</p>
           <div class="row">
             <div class="col-6">
               <h4>National Taitung University</h4>
@@ -93,15 +89,30 @@
             </div>
           </div>
           <h5><span class="badge badge-secondary">Studying</span></h5>
-          <p>1. 大一下時 因為課業壓力沒有很大，所以加進了專題生的行
-        列，跟著學長們 學中做做中學，我們的主題是<mark><strong>【半導體微影
-        技術之研究】</strong></mark>，我們使用Matlab去分析模擬軟體跑出來的
-        DATA，去作出各統圖表和各種數據，其中我在大二初這段
-        時間的工作為，優化實驗室之CODE，把For Loop 向量化
-        (矩陣化)，將會大幅減少時間</p>
-        <p>2. 我在2020 11 月 大一新生宿營之宣傳組的副組長，職務是負責寫宿營網
-        頁<mark><strong>【<a href="https://2021hero.vercel.app">2021hero.vercel.app</a>】</strong></mark>，透過網頁之呈現，幫宿營
-        爭取更多參加人數。</p>
+          <ul>
+            <li>大一下時加進了專題生的行列，我們的主題是<mark><strong>【半導體微影技術之研究】</strong></mark>，寫程式自動化分析各項數據。</li>
+            <li>我在2020年11 月，擔任新生宿營之宣傳組的副組長，職務是負責寫宿營網頁<mark><strong>【<a style="font-size: 20px ;color:  #4169e1;" href="https://2021hero.vercel.app">2021hero.vercel.app</a>】</strong></mark>，透過網頁之呈現，幫宿營爭取更多參加人數。</li>
+            <li>發表國際會議論文</li>
+            <ol>
+              <li><a style="color: #4169e1;" href="https://drive.google.com/file/d/1JZKz4Nm_Ke2c1NjSwmmwoeEjfvE77gS4/view?usp=sharing">【2021 MNE】 A new parametric point spread function at low keV for next generation EUV mask proximity modeling and correction</a></li>
+              <li><a style="color: #4169e1;" href="https://drive.google.com/file/d/1Kvelb3Y_X1wFCK9W2koFHrB7DWxKGfbl/view?usp=sharing">【2022 EIPBN】 Impact of electron scattering in EUV mask absorber materials</a></li>
+            </ol>
+          </ul>
+          <div class="row">
+            <div class="col-6">
+              <h4>Taoyuan Municipal Yung-Feng High School</h4>
+            </div>
+            <div class="col-6">
+              <h5 class="text-right"><span aria-hidden="true"></span> July 2017 - June 2020</h5>
+            </div>
+          </div>
+          <h5><span class="badge badge-secondary">Graduated</span></h5>
+          <ul>
+            <li>高一時參加實驗班的課程，在裡面我學會了<mark><strong>撰寫程式</strong></mark></li>
+            <li>學會繪製 3D 圖，並實際操作 3D 列印機</li>
+            <li>研究mbot 自走車，並且在 2017 年 11 月 獲得mbot自走車競賽冠軍。</li>
+          </ul>
+          
         </div>
         <div class="col-md-6 col-sm-12">
           <h2>Skill Set</h2>
@@ -152,12 +163,7 @@
                 <td>(IPOE)創客機器人大賽</td>
                 <td>冠軍</td>
               </tr>
-              <tr class="table-warning">
-                <th scope="row">4</th>
-                <td>2021</td>
-                <td><a href="https://www.mne2021.org/">MNE 2021(Micro and Nano Engineering Conference)</a><br>Impact of electron scattering in EUV mask absorber materials</td>
-                <td>參與投稿並演講</td>
-              </tr>
+
               <!-- <tr>
                 <th scope="row">3</th>
                 <td colspan="2">2017/11</td>
@@ -196,7 +202,7 @@
               參與實習之心得：
               <ul>
                 <li>
-                  其實在這裡工作的這兩個月學到的技術並不多，更多學到的其實是RD們是怎麼工作的，遇到問題時怎麼解決，之前的我認為工程師都是一個人在寫CODE，但是來這邊就改觀。不同的晶片有不同的Team在負責，晶片之間的溝通也要說好，還有function之間的溝通，所以我個人認為當RD最重要的是良好的溝通能力還有好的EQ。
+                  其實在這裡工作的這兩個月學到的技術並不多，更多學到的其實是RD們是怎麼工作的，遇到問題時怎麼解決，之前的我認為工程師都是一個人在寫CODE，但是來這邊就改觀。不同的晶片有不同的Team在負責，晶片之間的溝通也要說好，還有function之間的溝通，<strong>所以我個人認為當RD最重要的是良好的溝通能力還有好的EQ </strong>。
                 </li>
                 <li>
                     還有實力也很重要，經驗較多的RD相較於經驗少的RD解BUG的速度就差很多，他們知道這個問題跟哪些function有關連，怎麼改會比較有效率。另外當要增加新的功能時，時間長短跟錯誤的多寡也取決於實力。
@@ -232,14 +238,180 @@
         </div> -->
       </div>
 
-      <hr>
+
+
+
+
+
+
+
+<!--       <hr>
       <h2>Autobiography</h2>
       <hr>
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <p class="big_font">&emsp; &emsp;家父是理工方面的人才，小時候的印象中常常看到家中多出許多有趣的東西，如遙控坦克，遙控飛機等，或是一些電源供應器。在這樣的環境下我漸漸的對<mark><strong>理工方面</strong></mark>產生濃厚的興趣。真正激發我人生要往資訊方面走是國中電腦老師，因為當時畢業需要志工時數，為了取得時數，我便和我同學一同去幫忙電腦老師處理雜務，在這過程中我學到的有關電腦的基本知識，也嘗試了程式設計，過程中老師也提供我們非常多的學習資源。從那時起我便如同掉入資訊的世界。從國中的擔任機器人夏令營助教，到高中的數理競賽，皆獲得師長好評。到大學前還特別去實習了一翻，也算是見見世面。<br>&emsp; &emsp;到大學之後接觸了面向更廣了，不再只是寫寫程式而已，而是跟物理或是其他東西結合在一起。寫程式不再只是邏輯而已，需要再花很多時間去了解其他東西，而現在的我正在往這個方向發展，努力把<mark><strong>技能樹</strong></mark>點滿!</p>
         </div>
-      </div>
+      </div> -->
+
+
+      <hr>
+      <h2>Publications</h2>
+      <hr>
+      <h4 style="font-size:23px ">國際期刊(SCI):</h4>
+	   </br>
+	   <span style="font-size:12pt">
+        <span style="text-justify:inter-ideograph">
+          <span style="line-height:150%">
+            <span style="tab-stops:list 30.0pt 36.0pt 49.65pt">
+              <span style="font-family:&quot;Times New Roman&quot;,serif">
+                <b><u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"></span></u></b><u>
+                        <span lang="EN-US"><span style="line-height:150%">
+                          
+                      </span>
+                      </span></u>
+                      <span lang="EN-US" ><span style="line-height:150%"><span style="color:black">C.-H. Liu,<u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"><strong> Z.-A. Ding</strong></span></u></b><u>
+                        <span lang="EN-US" ><span style="line-height:150%">
+                          <span style="color:black"></span>
+                      </span>
+                      </span></u>, and Shun-Ping Wang,</span></span></span><span lang="EN-US" style="line-height:150%">"Shape-based proximity effect correction method for throughput, fidelity, and contrast enhancement of electron-beam writer,"<i> presented at the The 35th International Microprocesses and Nanotechnology Conference (MNC 2022),</i> 11P-4-5
+                  <span style="color:black">, Tokushima, Japan, 2022.</span>
+                </span>
+            </span>
+            </span>
+      </span>
+    </span>
+	  </br></br>
+      <h4 style="font-size:23px ">國際會議論文:</h4>
+	  </br>
+<span style="font-size:12pt">
+        <span style="text-justify:inter-ideograph">
+          <span style="line-height:150%">
+            <span style="tab-stops:list 30.0pt 36.0pt 49.65pt">
+              <span style="font-family:&quot;Times New Roman&quot;,serif">
+                <b><u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"></span></u></b><u>
+                        <span lang="EN-US"><span style="line-height:150%">
+                          
+                      </span>
+                      </span></u>
+                      <span lang="EN-US" ><span style="line-height:150%"><span style="color:black">C.-H. Liu,<u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"><strong> Z.-A. Ding</strong></span></u></b><u>
+                        <span lang="EN-US" ><span style="line-height:150%">
+                          <span style="color:black"></span>
+                      </span>
+                      </span></u>, and K.-Y. Tsai,</span></span></span><span lang="EN-US" style="line-height:150%">"A new model-based MPC for high-NA EUV mask imaging contrast enhancement,"<i> presented at the The 35th International Microprocesses and Nanotechnology Conference (MNC 2022),</i> 11P-4-5
+                  <span style="color:black">, Tokushima, Japan, 2022.</span>
+                </span>
+            </span>
+            </span>
+      </span>
+    </span>
+
+</br></br>
+
+<span style="font-size:12pt">
+        <span style="text-justify:inter-ideograph">
+          <span style="line-height:150%">
+            <span style="tab-stops:list 30.0pt 36.0pt 49.65pt">
+              <span style="font-family:&quot;Times New Roman&quot;,serif">
+                <b><u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"></span></u></b><u>
+                        <span lang="EN-US"><span style="line-height:150%">
+                          
+                      </span>
+                      </span></u>
+                      <span lang="EN-US" ><span style="line-height:150%"><span style="color:black">C.-H. Liu, S.-P. Wang,<u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"><strong> Z.-A. Ding</strong></span></u></b><u>
+                        <span lang="EN-US" ><span style="line-height:150%">
+                          <span style="color:black"></span>
+                      </span>
+                      </span></u>, H.-Y. Hsieh, Y.-C. Li, C.-S. Lee, et al., </span></span></span><span lang="EN-US" style="line-height:150%"> "A method to improve the pattern fidelity of parametric point spread function for High-NA EUV mask,"<i> presented at the The 35th International Microprocesses and Nanotechnology Conference (MNC 2022),</i> 11P-4-7
+                  <span style="color:black">, Tokushima, Japan, 2022.</span>
+                </span>
+            </span>
+            </span>
+      </span>
+    </span>
+
+</br></br>
+
+<span style="font-size:12pt">
+        <span style="text-justify:inter-ideograph">
+          <span style="line-height:150%">
+            <span style="tab-stops:list 30.0pt 36.0pt 49.65pt">
+              <span style="font-family:&quot;Times New Roman&quot;,serif">
+                <b><u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"></span></u></b><u>
+                        <span lang="EN-US"><span style="line-height:150%">
+                          <span style="color:black"></span>
+                      </span>
+                      </span></u>
+                      <span lang="EN-US" ><span style="line-height:150%"><span style="color:black">C.H. Liu, H.Y. Hsieh,S.P. Wang, Y.C. Li, C.S. Lee, <u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"><strong> Z.A. Ding</strong></span></u></b><u>
+                        <span lang="EN-US" ><span style="line-height:150%">
+                          
+                      </span>
+                      </span></u>, A.L. Chang, Y.X. Chen, Y.H. Chang, W.Y. Hsu, K.F. Huang</span></span></span><span lang="EN-US" style="line-height:150%">, “A new parametric point spread function at low keV for next generation EUV mask proximity modeling and correction,” <i>The 65th International Conference on Electron, Ion and Photon Beam Technology and Nanofabrication (EIPBN 2022)</i>,
+                  <span style="color:black">(<strong><span ><span style="font-weight:normal">online</span></span></strong> poster) , New Orleans, USA, June . 2022</span>
+                </span>
+            </span>
+            </span>
+      </span>
+    </span>
+
+</br></br>
+
+      <span style="font-size:12pt">
+        <span style="text-justify:inter-ideograph">
+          <span style="line-height:150%">
+            <span style="tab-stops:list 30.0pt 36.0pt 49.65pt">
+              <span style="font-family:&quot;Times New Roman&quot;,serif">
+                <b><u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"></span></u></b><u>
+                        <span lang="EN-US"><span style="line-height:150%">
+                          
+                      </span>
+                      </span></u>
+                      <span lang="EN-US" ><span style="line-height:150%"><span style="color:black">Chun-Hung Liu, Hsiang-Yi Hsieh, Kuan-Fu Huang, Kuen-Yu Tsai, Shuen-Ping Wang, Wei-Yung Hsu, Fei-Ming Huang, Chih-Chiang Wu, Yun-Chin Li, Chieh-Sheng Lee, Po-Cheng Wu, <u>
+                  <span lang="EN-US">
+                    <span style="line-height:150%">
+                      <span style="color:black"><strong>Ze-An Ding</strong></span></u></b><u>
+                        <span lang="EN-US" ><span style="line-height:150%">
+                          <span style="color:black"></span>
+                      </span>
+                      </span></u>, Yung-Hsiang Chang, Ai-Ling Chang, Yi-Xuan Chen, Fu-Chu Hsu</span></span></span><span lang="EN-US" style="line-height:150%">, “Impact of electron scattering in EUV mask absorber materials,” <i>The 47th edition on the Micro and Nano Engineering Conference (MNE2021)</i>, PA3, 
+                  <span style="color:black">(<strong><span ><span style="font-weight:normal">online</span></span></strong> poster), Turin, Italy, Sep. 2021</span>
+                </span>
+            </span>
+            </span>
+      </span>
+    </span>
+
+
+
+
+
       <!--<hr>
       <h2>Portfolio</h2>
       <hr>
